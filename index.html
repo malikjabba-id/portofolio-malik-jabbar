@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Jabbar — Portfolio '26 | Administrasi, Operasional & Manajemen Informatika</title>
+    <meta name="description" content="Portofolio Profesional Malik Jabbar — Mahasiswa D3 Manajemen Informatika UCIC, Spesialis Administrasi Data, Pengendalian Inventaris, dan Operasional.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Minimal Navigation -->
+    <header class="topbar" id="topbar">
+        <div class="container topbar-inner">
+            <a href="#hero" class="brand-logo">
+                MALIK<span>JABBAR</span> <small>'26</small>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#intro" class="nav-item">Introduction</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#content" class="nav-item">Content 01–05</a>
+                <a href="#certificates" class="nav-item">Certificates</a>
+                <a href="https://wa.me/6289532789006?text=Halo%20Malik%20Jabbar,%20saya%20melihat%20website%20portofolio%20Anda%20dan%20tertarik%20untuk%20berdiskusi." target="_blank" rel="noopener noreferrer" class="nav-btn">
+                    Hubungi Saya
+                </a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ================= 1. HERO SECTION (PLAYFUL STAGGERED TYPOGRAPHY + CUTOUT PORTRAIT) ================= -->
+        <section class="hero-section" id="hero">
+            <div class="container hero-stage">
+                
+                <!-- Staggered Bouncing "PoRtfoLio '26" Typography Behind Portrait -->
+                <div class="portfolio-wordmark" aria-label="Portfolio '26">
+                    <span class="year-tag">'26</span>
+                    <div class="wordmark-row">
+                        <span class="char char-p">P</span>
+                        <span class="char char-o1">o</span>
+                        <span class="char char-r">R</span>
+                        <span class="char char-t">t</span>
+                        <span class="char char-f">f</span>
+                        <span class="char char-o2">o</span>
+                        <span class="char char-l">L</span>
+                        <span class="char char-i">i</span>
+                        <span class="char char-o3">o</span>
+                    </div>
+                    <div class="hero-name-tag">MALIK JABBAR</div>
+                </div>
+
+                <!-- Center Cutout Figure Overlapping the Typography -->
+                <div class="hero-portrait-wrap">
+                    <div class="portrait-Teaching-glow"></div>
+                    <img src="malik-hero.png" alt="Malik Jabbar Portrait" class="hero-cutout-img" onerror="this.src='malik-idcard.jpg'">
+                    
+                    <!-- Floating Status Pill -->
+                    <div class="floating-badge badge-left">
+                        <span class="dot-live"></span>
+                        <span>Ready for WFO & Freelance</span>
+                    </div>
+                    <div class="floating-badge badge-right">
+                        <i data-lucide="award"></i>
+                        <span>D3 Manajemen Informatika — UCIC</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ================= 2. BIO & LANYARD ID CARD + 3-COLUMN RESUME GRID ================= -->
+        <section class="intro-section" id="intro">
+            <div class="container">
+                <div class="intro-grid">
+                    
+                    <!-- Left Column: Realistic Tilted Lanyard ID Badge -->
+                    <div class="lanyard-col reveal">
+                        <div class="lanyard-assembly">
+                            <!-- Ribbon Strap SVG -->
+                            <svg class="lanyard-strap" viewBox="0 0 160 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M55 0 C35 45, 95 95, 80 135" stroke="#d4d4d8" stroke-width="18" stroke-linecap="round"/>
+                                <path d="M95 0 C115 45, 65 95, 80 135" stroke="#e4e4e7" stroke-width="18" stroke-linecap="round"/>
+                                <!-- Metal Clip -->
+                                <rect x="68" y="122" width="24" height="14" rx="4" fill="#a1a1aa" stroke="#52525b" stroke-width="2"/>
+                                <circle cx="80" cy="140" r="6" fill="none" stroke="#71717a" stroke-width="3"/>
+                            </svg>
+
+                            <!-- Plastic ID Card Holder -->
+                            <div class="id-card-holder">
+                                <div class="id-slot-hole"></div>
+                                <div class="id-card-inner">
+                                    <div class="id-photo-frame">
+                                        <img src="malik-idcard.jpg" alt="Malik Jabbar ID Card">
+                                        <span class="id-verified">VERIFIED TALENT</span>
+                                    </div>
+                                    <div class="id-card-meta">
+                                        <h4>MALIK JABBAR</h4>
+                                        <p>Admin Data & Inventory Specialist</p>
+                                        <div class="id-barcode"></div>
+                                        <span class="id-serial">ID // UCIC-MI-2025-MJ</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Area: "Hi, I'm Malik Jabbar" + 3-Column Resume Breakdown -->
+                    <div class="bio-content-col">
+                        <div class="greeting-block reveal">
+                            <h2 class="greeting-title">Hi, I'm Malik Jabbar</h2>
+                            <p class="greeting-text">
+                                Mahasiswa aktif <strong>D3 Manajemen Informatika</strong> di <strong>Universitas Catur Insan Cendekia (UCIC)</strong> yang teliti, terorganisir, dan berfokus pada <strong>administrasi data</strong> serta pengendalian operasional. Memiliki perangkat kerja pribadi (laptop) untuk menunjang produktivitas harian dan menguasai <strong>Microsoft Excel</strong> untuk pengolahan laporan. Terbiasa memimpin maupun berkolaborasi dalam tim dengan rekam jejak terbukti di bidang logistik, perhotelan, ritel, hingga agensi digital—siap berkontribusi secara <strong>WFO maupun Freelance</strong>.
+                            </p>
+                        </div>
+
+                        <!-- 3-Column Resume Matrix (Matching Reference Layout) -->
+                        <div class="resume-matrix reveal" id="experience">
+                            
+                            <!-- Column 1: EXPERIENCE (Part 1) -->
+                            <div class="matrix-col">
+                                <h3 class="matrix-heading">EXPERIENCE</h3>
+                                
+                                <div class="exp-item">
+                                    <h4 class="exp-role">Mandor Operasional & Logistik</h4>
+                                    <p class="exp-org">Toko Beras Sumber Daya 2</p>
+                                    <span class="exp-date">Mei 2025 – Januari 2026</span>
+                                    <p class="exp-detail">Memimpin tim lapangan, mengawasi distribusi keluar-masuk barang harian, dan mengelola administrasi stok persediaan berkala.</p>
+                                </div>
+
+                                <div class="exp-item">
+                                    <h4 class="exp-role">Casual Banquet Staff</h4>
+                                    <p class="exp-org">Hotel Aston Cirebon</p>
+                                    <span class="exp-date">Januari 2024 – Maret 2025</span>
+                                    <p class="exp-detail">Bertanggung jawab atas operasional & dokumentasi administrasi kegiatan banquet, persiapan acara, serta manajemen pasca-acara secara akurat.</p>
+                                </div>
+
+                                <div class="exp-item">
+                                    <h4 class="exp-role">Staf Operasional / Admin Travel</h4>
+                                    <p class="exp-org">PT Cakrawala Perdana</p>
+                                    <span class="exp-date">April 2024 – November 2024</span>
+                                    <p class="exp-detail">Menangani jadwal perjalanan, input data penumpang, dokumen keberangkatan, serta koordinasi rute armada travel.</p>
+                                </div>
+                            </div>
+
+                            <!-- Column 2: EXPERIENCE & EDUCATION (Part 2) -->
+                            <div class="matrix-col">
+                                <h3 class="matrix-heading">EXPERIENCE & EDU</h3>
+
+                                <div class="exp-item">
+                                    <h4 class="exp-role">Divisi Non-Food (Magang)</h4>
+                                    <p class="exp-org">Yogya Junction Cirebon</p>
+                                    <span class="exp-date">November 2023 – April 2024</span>
+                                    <p class="exp-detail">Melaksanakan Stock Opname berkala, pencatatan ketersediaan barang terstruktur, dan penataan visual merchandising produk.</p>
+                                </div>
+
+                                <div class="exp-item">
+                                    <h4 class="exp-role">Pemasaran Digital & Admin</h4>
+                                    <p class="exp-org">Komunitas Online Utama</p>
+                                    <span class="exp-date">Januari 2022 – Januari 2025</span>
+                                    <p class="exp-detail">Mengelola data penjualan media sosial & marketplace, rekapitulasi pelanggan, dan penyusunan laporan mingguan strategi digital.</p>
+                                </div>
+
+                                <div class="exp-item edu-highlight">
+                                    <h4 class="exp-role">Pendidikan Formal</h4>
+                                    <p class="exp-org">Universitas Catur Insan Cendekia</p>
+                                    <span class="exp-date">D3 Manajemen Informatika (2025 – Sekarang)</span>
+                                    <p class="exp-org" style="margin-top:6px;">SMK Negeri 1 Kedawung</p>
+                                    <span class="exp-date">Bisnis Daring & Pemasaran (Lulus 2025)</span>
+                                </div>
+                            </div>
+
+                            <!-- Column 3: CONTACT & SOFTWARES / SKILLS -->
+                            <div class="matrix-col">
+                                <h3 class="matrix-heading">CONTACT</h3>
+                                
+                                <ul class="contact-list">
+                                    <li>
+                                        <span class="c-badge bg-wa">WA</span>
+                                        <div>
+                                            <a href="https://wa.me/6289532789006" target="_blank" rel="noopener noreferrer">0895-3278-9006</a>
+                                            <small>Telepon & WhatsApp Aktif</small>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="c-badge bg-mail">M</span>
+                                        <div>
+                                            <a href="mailto:malikjabbar2006@gmail.com">malikjabbar2006@gmail.com</a>
+                                            <small>Email Resmi</small>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="c-badge bg-loc">LOC</span>
+                                        <div>
+                                            <span>Jl. Pilang, Cirebon, Jawa Barat</span>
+                                            <small>Siap WFO Cirebon & Freelance</small>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <h3 class="matrix-heading" style="margin-top: 28px;">SOFTWARES & TOOLS</h3>
+                                <div class="software-badges">
+                                    <span class="sw-icon sw-xl" title="Microsoft Excel (Pengolahan Data & Laporan)">Xl</span>
+                                    <span class="sw-icon sw-wd" title="Microsoft Word (Dokumentasi Administrasi)">Wd</span>
+                                    <span class="sw-icon sw-gs" title="Google Sheets & Workspace">Gs</span>
+                                    <span class="sw-icon sw-so" title="Stock Opname & Inventory System">So</span>
+                                    <span class="sw-icon sw-ai" title="Generative AI & Kiro Spec-Driven Workflow">Ai</span>
+                                </div>
+
+                                <div class="skill-tags-mini">
+                                    <span>Stock Opname</span>
+                                    <span>Data Entry</span>
+                                    <span>MS Excel</span>
+                                    <span>Customer Service</span>
+                                    <span>Team Leadership</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 3. OUTLINED "CONTENT" HEADER + 5 VERTICAL COLORFUL SHOWCASE STRIPS ================= -->
+        <section class="content-section" id="content">
+            <div class="container">
+                
+                <!-- Giant Outlined "CONTENT" Header with Scattered 01-05 Numbers -->
+                <div class="content-header-wrap reveal">
+                    <div class="outlined-word-container">
+                        <span class="float-num num-01">01</span>
+                        <span class="float-num num-02">02</span>
+                        <span class="float-num num-03">03</span>
+                        <span class="float-num num-04">04</span>
+                        <span class="float-num num-05">05</span>
+                        <h2 class="outlined-content-title">CONTENT</h2>
+                    </div>
+                    <p class="content-sub">5 Pilar Rekam Jejak Operasional, Administrasi Data & Kepemimpinan Lapangan</p>
+                </div>
+
+                <!-- 5 Vertical Color-Coded Strips (1 2 3 4 5) Matching the Reference Image -->
+                <div class="strips-grid reveal">
+                    
+                    <!-- Strip 1: Blue -->
+                    <article class="strip-col">
+                        <div class="strip-banner strip-blue">
+                            <div class="Floating-mockup">
+                                <div class="mock-screen">
+                                    <div class="mock-bar"><span></span><span></span><span></span></div>
+                                    <div class="mock-tag">LOGISTICS & STOCK</div>
+                                    <h5>Distribusi & Stok Beras</h5>
+                                    <div class="mock-chart">
+                                        <div style="height:60%"></div>
+                                        <div style="height:85%"></div>
+                                        <div style="height:75%"></div>
+                                        <div style="height:95%"></div>
+                                    </div>
+                                    <span class="mock-stat">100% Akurasi Opname</span>
+                                </div>
+                            </div>
+                            <span class="strip-giant-num">1</span>
+                        </div>
+                        <div class="strip-caption">
+                            <h4>SUMBER DAYA 2</h4>
+                            <p>Mandor Operasional & Logistik — Kendali penuh alur keluar-masuk beras & audit stok harian.</p>
+                        </div>
+                    </article>
+
+                    <!-- Strip 2: Warm Beige -->
+                    <article class="strip-col">
+                        <div class="strip-banner strip-beige">
+                            <div class="Floating-mockup">
+                                <div class="mock-screen dark-mock">
+                                    <div class="mock-bar"><span></span><span></span><span></span></div>
+                                    <div class="mock-tag">HOSPITALITY EVENT</div>
+                                    <h5>Banquet Admin & Ops</h5>
+                                    <ul class="mock-checklist">
+                                        <li>✓ Setup & Dokumentasi Acara</li>
+                                        <li>✓ Koordinasi Tim Banquet</li>
+                                        <li>✓ Evaluasi Pasca-Acara</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <span class="strip-giant-num">2</span>
+                        </div>
+                        <div class="strip-caption">
+                            <h4>ASTON CIREBON</h4>
+                            <p>Casual Banquet — Eksekusi operasional dan ketepatan administrasi kelengkapan event perhotelan.</p>
+                        </div>
+                    </article>
+
+                    <!-- Strip 3: Sage Green -->
+                    <article class="strip-col">
+                        <div class="strip-banner strip-green">
+                            <div class="Floating-mockup">
+                                <div class="mock-screen">
+                                    <div class="mock-bar"><span></span><span></span><span></span></div>
+                                    <div class="mock-tag">FLEET & MANIFEST</div>
+                                    <h5>Jadwal & Manifest Rute</h5>
+                                    <div class="mock-route">
+                                        <span>CRB</span>
+                                        <hr>
+                                        <span>JKT / BDG</span>
+                                    </div>
+                                    <span class="mock-stat">Zero Delay Document</span>
+                                </div>
+                            </div>
+                            <span class="strip-giant-num">3</span>
+                        </div>
+                        <div class="strip-caption">
+                            <h4>CAKRAWALA TRAVEL</h4>
+                            <p>Staf Admin Travel — Pengelolaan database penumpang, penjadwalan armada, & layanan pelanggan.</p>
+                        </div>
+                    </article>
+
+                    <!-- Strip 4: Coral Red -->
+                    <article class="strip-col">
+                        <div class="strip-banner strip-coral">
+                            <div class="Floating-mockup">
+                                <div class="mock-screen dark-mock">
+                                    <div class="mock-bar"><span></span><span></span><span></span></div>
+                                    <div class="mock-tag">RETAIL INVENTORY</div>
+                                    <h5>Stock Opname Non-Food</h5>
+                                    <div class="mock-grid-boxes">
+                                        <span>SKU✓</span><span>SKU✓</span>
+                                        <span>SKU✓</span><span>SKU✓</span>
+                                    </div>
+                                    <span class="mock-stat">Visual Merchandising</span>
+                                </div>
+                            </div>
+                            <span class="strip-giant-num">4</span>
+                        </div>
+                        <div class="strip-caption">
+                            <h4>YOGYA JUNCTION</h4>
+                            <p>Divisi Non-Food — Audit akurasi inventaris ritel berkala, pelaporan stok, dan penataan display.</p>
+                        </div>
+                    </article>
+
+                    <!-- Strip 5: Periwinkle Blue -->
+                    <article class="strip-col">
+                        <div class="strip-banner strip-periwinkle">
+                            <div class="Floating-mockup">
+                                <div class="mock-screen">
+                                    <div class="mock-bar"><span></span><span></span><span></span></div>
+                                    <div class="mock-tag">E-COMMERCE DATA</div>
+                                    <h5>Rekap Penjualan Digital</h5>
+                                    <div class="mock-chart">
+                                        <div style="height:50%"></div>
+                                        <div style="height:70%"></div>
+                                        <div style="height:90%"></div>
+                                        <div style="height:100%"></div>
+                                    </div>
+                                    <span class="mock-stat">Laporan Mingguan</span>
+                                </div>
+                            </div>
+                            <span class="strip-giant-num">5</span>
+                        </div>
+                        <div class="strip-caption">
+                            <h4>KOMUNITAS ONLINE</h4>
+                            <p>Admin & Digital Marketing — Rekapitulasi transaksi marketplace & analisis pertumbuhan mingguan.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================= 4. CERTIFICATES & CREDENTIALS SHOWCASE ================= -->
+        <section class="cert-section" id="certificates">
+            <div class="container">
+                <div class="cert-header reveal">
+                    <div>
+                        <span class="eyebrow-tag">VERIFIED CREDENTIALS (2026)</span>
+                        <h2 class="section-heading">8 Sertifikasi Kompetensi Digital, AI & Produktivitas</h2>
+                    </div>
+                    <p class="cert-sub">Komitmen pengembangan diri berkelanjutan melalui ekosistem Dicoding, Badan Ekraf RI, dan Binar Academy.</p>
+                </div>
+
+                <div class="cert-grid reveal">
+                    <div class="cert-card">
+                        <span class="cert-date">Agustus 2026</span>
+                        <h4>Spec-Driven Development dengan Kiro</h4>
+                        <p>Dicoding Indonesia</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">Juli 2026</span>
+                        <h4>Membangun Kebiasaan Kerja dengan AI: Produktif, Aman, & Bertanggung Jawab</h4>
+                        <p>Binar Academy</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">Mei 2026</span>
+                        <h4>Partisipasi Program Badan Ekraf Digital Talent (BDT) 2026</h4>
+                        <p>Badan Ekraf RI & Dicoding</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">Mei 2026</span>
+                        <h4>Introduction to Financial Literacy</h4>
+                        <p>Dicoding Indonesia</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">April 2026</span>
+                        <h4>Belajar Penggunaan Generative AI</h4>
+                        <p>Dicoding Indonesia</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">April 2026</span>
+                        <h4>Belajar Dasar AI</h4>
+                        <p>Dicoding Indonesia</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">Maret 2026</span>
+                        <h4>AI Praktis untuk Produktivitas</h4>
+                        <p>Dicoding Indonesia</p>
+                    </div>
+                    <div class="cert-card">
+                        <span class="cert-date">Maret 2026</span>
+                        <h4>Digdaya x Hackathon 2026: From Hackathon to Real Impact</h4>
+                        <p>Dicoding Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>MALIK JABBAR</strong> — Portfolio '26 · Jl. Pilang, Cirebon, Jawa Barat
+            </div>
+            <div class="footer-links">
+                <a href="https://wa.me/6289532789006" target="_blank" rel="noopener noreferrer">WhatsApp: 0895-3278-9006</a>
+                <span>•</span>
+                <a href="mailto:malikjabbar2006@gmail.com">malikjabbar2006@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
